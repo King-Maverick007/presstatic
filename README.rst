@@ -8,7 +8,7 @@ This is a little CLI utility that helps deploying static websites to Amazon S3.
 Usage
 -----
 
-.. code-block:: shell
+.. .code-block:: shell
 
 	$> pip install presstatic
 
@@ -68,7 +68,7 @@ Here's an example:
 	        output: static/css/packed.css
 	        contents:
 	            - static/css/style.css
-	            - static/css/jquery.fancybox.css
+	            
 	    all_js:
 	        filters: yui_js
 	        output: static/js/packed.js
@@ -84,7 +84,7 @@ TODO
 * Add Asset support [DRAFT]
 * Add watcher support [DRAFT]
 
-License
+License:
 _______
 
 presstatic is under MIT license. See the `LICENSE <https://github.com/regadas/presstatic/blob/master/LICENSE>`_ file for details.
